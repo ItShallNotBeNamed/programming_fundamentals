@@ -8,7 +8,7 @@ namespace ConsoleApp2
         {
             string product_name = Console.ReadLine(); //user inputs the name of the product
             int volume = int.Parse(Console.ReadLine());// user inputs the amount of the product
-            int energy_per_100ml = int.Parse(Console.ReadLine());// user inputs the energy per 100ml the product has
+            int energy_per_100ml = int.Parse(Console.ReadLine());//user inputs the energy per 100ml the product has
             int sugar_per_100ml = int.Parse(Console.ReadLine());//user inputs the amount of sugar per 100ml the product has
 
             //double total_energy = ((double)volume / 100.0) * energy_per_100ml;
