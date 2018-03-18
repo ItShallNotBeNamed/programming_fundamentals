@@ -6,15 +6,15 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string product_name = Console.ReadLine(); //user inputs the name of the product
-            int volume = int.Parse(Console.ReadLine());// user inputs the amount of the product
-            int energy_per_100ml = int.Parse(Console.ReadLine());//user inputs the energy per 100ml the product has
-            int sugar_per_100ml = int.Parse(Console.ReadLine());//user inputs the amount of sugar per 100ml the product has
+            string product = Console.ReadLine(); //user inputs the name of the product
+            int amount = int.Parse(Console.ReadLine());// user inputs the amount of the product
+            int energyPer100ml = int.Parse(Console.ReadLine());//user inputs the energy per 100ml the product has
+            int sugarPer100ml = int.Parse(Console.ReadLine());//user inputs the amount of sugar per 100ml the product has
 
             
 
-            Console.WriteLine($"{volume}ml {product_name}:"); // console outputs the volume and the name of the product
-            Console.WriteLine($"{((double)volume / 100.0) * energy_per_100ml}kcal, {((double)volume / 100.0) * sugar_per_100ml}g sugars");// console outputs the calculations that have been made
+            Console.WriteLine($"{amount}ml {product}:"); // console outputs the volume and the name of the product
+            Console.WriteLine($"{((double)amount / 100.0) * energyPer100ml}kcal, {((double)amount / 100.0) * sugarPer100ml}g sugars");// console outputs the calculations that have been made
 
            
         }

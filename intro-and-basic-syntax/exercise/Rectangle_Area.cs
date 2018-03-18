@@ -10,10 +10,10 @@ namespace RectangleArea_2
     {
         static void Main(string[] args)
         {
-            double width = double.Parse(Console.ReadLine()); //Read the width of the rectangle from the console
-            double height = double.Parse(Console.ReadLine()); //Read the height of the rectangle from the console
+            double rectangleWidth = double.Parse(Console.ReadLine()); //Read the width of the rectangle from the console
+            double rectangleHeight = double.Parse(Console.ReadLine()); //Read the height of the rectangle from the console
 
-            Console.WriteLine("{0:f2}", width * height); //Calculates the area of the rectangle and outputs it to the console
+            Console.WriteLine("{0:f2}", rectangleWidth * rectangleHeight); //Calculates the area of the rectangle and outputs it to the console
         }
     }
 }
