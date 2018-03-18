@@ -34,54 +34,131 @@ ___________________________________
 
 
 
-**Rectangle Area**  
-Write a program, which calculates a rectangle’s area, based on its width and height. The width and height come as floating point numbers on the console, formatted to the 2nd character after the decimal point.  
-Examples  
-Input    Output  
-2  
-7    14.00  
-7  
-8    56.00  
-12.33  
-5    61.65
-----------------------------------
-Miles to Kilometers 
-Write a program, which converts miles to kilometers. Format the output to the 2nd decimal place. 
-Note: 1 mile == 1.60934 kilometers 
-Examples 
+**Rectangle Area**
 
-Input  | 	Output 
-	   |	   
-60 	   |	96.56 
-	   |	
-1 	   |	1.61
-       |
-52.1113|	83.86 
-----------------------------------
-Beverage Labels 
-Write a program, which reads a food product name, volume, energy content per 100ml and sugar content per
-100ml. Calculate the energy and sugar content for the given volume and print them on the console in the following
-format: 
--Name – as per the input 
--Volume – integer, suffixed by “ml” (e.g. “220ml”) 
--Energy content – integer, suffixed by “kcal” (e.g. “500kcal”) 
--Sugar content – integer, suffixed by “g” (e.g. “30g”)
+Write a program, which calculates a rectangle’s area, based on its width and height. The width and height come as floating point numbers on the console, formatted to the 2nd character after the decimal point.
 
-Input 		| Output
-Nuka-Cola   | 220ml Nuka-Cola: 
-220         | 660kcal, 154g sugars 
-300			|
-70			|
+* Examples:
+```
+Input:		Output:  
+2		14.00
+7
+___________________________________
+Input:		Output:
+7		56.00
+8
+___________________________________
+Input:		Output:
+12.33		61.65
+5
+___________________________________
+```
 
-Input 			| Output
-Ice Cold Nuka-	|	250ml Ice Cold Nuka-Cola: 
-Cola 			| 	875kcal, 162.5g sugars
-250				|
-350				|
-65				| 
 
-Input 				| Output
-Nuka Cola Quantum	|	350ml Nuka-Cola Quantum: 
-350					| 	2100kcal, 490g sugars
-600					|
-140					|
+
+**Miles to Kilometers**
+ 
+Write a program, which converts miles to kilometers. Format the output to the 2nd decimal place.
+
+*Note: 1 mile == 1.60934 kilometers*
+
+* Examples:
+```
+Input:		Output:
+60		96.56
+___________________________________
+Input:		Output:
+1		1.61
+___________________________________
+Input:		Output:
+52.1113		83.86
+___________________________________
+```
+
+
+
+**Beverage Labels**
+
+Write a program, which reads a food product name, volume, energy content per 100ml and sugar content per 100ml. Calculate the energy and sugar content for the given volume and print them on the console in the following format:
+
+* Name – as per the input 
+* Volume – integer, suffixed by “ml” (e.g. “220ml”) 
+* Energy content – integer, suffixed by “kcal” (e.g. “500kcal”) 
+* Sugar content – integer, suffixed by “g” (e.g. “30g”)
+
+Examples:
+```
+Input:			Output:
+Nuka-Cola		220ml Nuka-Cola:
+220			660kcal, 154g sugars
+300
+70
+__________________________________________________
+Input:			Output:
+Ice Cold Nuka-Cola	250ml Ice Cold Nuka-Cola:
+250			875kcal, 162.5g sugars
+350
+65
+__________________________________________________
+Input:			Output:
+Nuka Cola Quantum	350ml Nuka-Cola Quantum:
+350			2100kcal, 490g sugars
+600
+140
+__________________________________________________
+```
+
+
+
+**Character Stats**
+Write a program, which displays information about a video game character. You will receive their name, current health, maximum health, current energy and maximum energy on separate lines. The current values will always be valid (equal or lower than their respective max values). Print them in the format as per the examples.
+
+* Examples:
+```
+Input:		Output:
+Mayro		Name: Mayro
+5		Health: ||||||.....|
+10		Energy: ||||||||||.|
+9
+10
+__________________________________________________
+Input:		Output:
+Bauser		Name: Bauser
+10		Health: ||||||||||||
+10		Energy: ||||||||||||
+10
+10
+__________________________________________________
+Input:		Output:
+Loogi		Name: Loogi
+8		Health: |||||||||............|
+20		Energy: |||............|
+2
+14
+__________________________________________________
+Input:		Output:
+Toad		Name: Toad
+0		Health: |.....|
+5		Energy: |..........|
+0
+10
+__________________________________________________
+```
+
+* Hint
+
+*You can print a character multiple times, using new string(character, count).*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
