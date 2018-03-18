@@ -10,6 +10,8 @@ namespace CharacterStats_5
     {
         static void Main(string[] args)
         {
+            //CONFIRMED from TheChill
+
             string character_name = Console.ReadLine();             //reads the name,
             int health_left = int.Parse(Console.ReadLine());        //      the current health,
             int maximum_health = int.Parse(Console.ReadLine());     //      the max health,
