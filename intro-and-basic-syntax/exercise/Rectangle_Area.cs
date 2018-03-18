@@ -10,6 +10,8 @@ namespace RectangleArea_2
     {
         static void Main(string[] args)
         {
+            //CONFIRMED from TheChill
+
             double rectangleWidth = double.Parse(Console.ReadLine()); //Read the width of the rectangle from the console
             double rectangleHeight = double.Parse(Console.ReadLine()); //Read the height of the rectangle from the console
 
